@@ -1,0 +1,226 @@
+@media (max-width: 1280px) {
+    .informacoes, .about {
+        margin-top: 15px;
+        padding: 5px 0;
+        justify-content: center;
+    }
+
+    .titulo {
+        justify-content: center;
+    }
+
+    .titulo h1 {
+        font-size: 45px;
+    }
+
+    .about {
+        margin-bottom: 20px;
+    }
+
+    .hero .info-hero h1 {
+        font-size: 40px;
+    }
+
+    .hero img {
+        width: 30%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .hero .info-hero span {
+        width: 480px;
+    }
+
+    
+    .sobre .titulo-sobre h1,
+    .sobre .titulo-sobre p,
+    .sobre .titulo-sobre .btn {
+        margin-left: 08%;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .titulo h1 {
+        font-size: 40px;
+    }
+
+    .informacoes, .about {
+        padding: 5px 0;
+        justify-content: center;
+    }
+
+    .descricoes, .hero {
+        flex-wrap: wrap;
+    }
+
+    .descricoes .descricao {
+        width: 70%;
+        align-items: center;
+        text-align: justify;
+    }
+
+    .about .info-about {
+        align-items: center;
+        text-align: justify;
+    }
+
+    .descricao-social .icon-social {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero .info-hero {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .hero .info-hero h1 {
+        font-size: 40px;
+    }
+
+    .hero img {
+        width: 60%;
+    }
+
+    .conteudo h1 {
+        font-size: 45px;
+    }
+
+    .informacoes-contato {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .informacoes-contato .info-contato {
+        gap: 15px;
+    }
+
+    .informacoes-contato .card {
+        margin-right: 0;
+    }
+
+    .sobre {
+        flex-wrap: wrap;
+    }
+
+    .informacao-sobre,
+    .informacao-sobre1 {
+        flex-wrap: wrap;
+    }
+
+    .sobre .titulo-sobre h1 {
+        font-size: 35px;
+    }
+
+    .sobre .titulo-sobre p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 688px) {
+    .informacao-sobre2 {
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 425px) {
+    header .logo {
+        font-size: 18px;
+    }
+
+    .titulo {
+        align-items: center;
+        height: 380px;
+    }
+
+    .titulo h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    .informacoes {
+        padding: 0;
+        justify-content: center;
+    }
+
+    .descricoes .descricao .titulo-descricao,
+    .about .info-about .titulo-about {
+        font-size: 20px;
+    }
+
+    .descricoes .descricao .info-descricao,
+    .about .info-about .descricao-about {
+        font-size: 15px;
+    }
+
+    .descricao-social img {
+        width: 300px;
+    }
+
+    .descricao-social .icon-social i {
+        font-size: 18px;
+    }
+
+    .hero .info-hero h1 {
+        font-size: 25px;
+    }
+
+    .hero .info-hero span {
+        width: 350px;
+    }
+
+    .aside h2 {
+        font-size: 20px;
+    }
+
+    .conteudo h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .conteudo p {
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    .info-contato .titulo-contato {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .info-contato .paragrafo-contato {
+        display: none;
+    }
+
+    .sobre .titulo-sobre h1 {
+        font-size: 25px;
+    }
+
+    .sobre .titulo-sobre p {
+        font-size: 15px;
+    }
+
+    .informacao-sobre2 {
+        flex-direction: column-reverse;
+    }
+
+    footer {
+        flex-wrap: wrap;
+    }
+
+    footer .social .info-social i {
+        font-size: 18px;
+    }
+
+    footer .contato {
+        display: none;
+    }
+}

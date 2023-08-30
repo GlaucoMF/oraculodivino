@@ -1,0 +1,151 @@
+body {
+    margin: 0 auto;
+    min-height: 100vh;
+    background-color: #101010;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    background-image: url(/src/imagens/baralho3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 470px;
+    padding: 50px;
+    gap: 35px;
+}
+
+.titulo h1 {
+    font-size: 50px;
+    font-weight: 500;
+    color: #F8F6F0;
+}
+
+.informacoes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 50px 100px;
+}
+
+.informacoes .informacao {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 480px;
+    padding: 15px;
+    justify-content: space-around;
+    box-shadow: rgba(121, 121, 130, 0.4) 0px 0px 0px 2px, rgba(121, 121, 130, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.informacoes .informacao .titulo-informacao {
+    font-size: 26px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.informacoes .informacao .descricao-informacao {
+    font-size: 18px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.informacoes .informacao .btn {
+    align-self: center;
+}
+
+.descricoes {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0 100px 0;
+}
+
+.descricoes .descricao {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.descricoes .descricao .titulo-descricao {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.descricoes .descricao .info-descricao {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.descricao-social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.descricao-social img {
+    width: 550px;
+}
+
+.descricao-social .icon-social {
+    display: flex;
+    gap: 40px;
+}
+
+.descricao-social .icon-social i {
+    font-size: 25px;
+    color: #F8F6F0;
+    transition: 0.5s ease-in-out;
+}
+
+.descricao-social .icon-social i:hover {
+    color: #411F36;
+    scale: 1.2;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0;
+    box-shadow: rgba(121, 121, 130, 0.4) 0px 0px 0px 2px, rgba(121, 121, 130, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+footer .social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+footer .social .titulo-social h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+footer .social .info-social {
+    display: flex;
+    gap: 40px;
+}
+
+footer .social .info-social i {
+    font-size: 25px;
+    color: #F8F6F0;
+    transition: 0.5s ease-in-out;
+}
+
+footer .social .info-social i:hover {
+    color: #411F36;
+    scale: 1.2;
+}
+
+footer .contato {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}

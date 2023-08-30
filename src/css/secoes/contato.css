@@ -1,0 +1,142 @@
+body {
+    margin: 0 auto;
+    min-height: 100vh;
+    background-color: #101010;
+}
+
+.conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 15px;
+    height: 300px;
+    justify-content: center;
+    padding: 0 80px;
+    border-top: 1px solid rgba(121, 121, 130, 0.65);
+}
+
+.conteudo h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.conteudo p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.informacoes-contato {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: #222222;
+}
+
+.informacoes-contato .info-contato {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.informacoes-contato .card {
+    width: 380px;
+    height: 450px;
+    background-color: #FFFFFF;
+    margin-right: 50px;
+}
+
+.informacoes-contato .card .form {
+    padding: 20px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.informacoes-contato .card .opcao {
+    display: flex;
+    gap: 15px;
+}
+
+.informacoes-contato .card .opcoes {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.informacoes-contato .card .opcoes h3 {
+    color: #101010;
+    font-size: 15px;
+}
+
+.informacoes-contato .card .inputs {
+    border: 1px solid #838383;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+}
+
+.informacoes-contato .card .opcoes .mensagem {
+    height: 100px;
+    resize: none;
+    margin-bottom: -3px;
+}
+
+.informacoes-contato .card .form .botao-enviar {
+    width: 100%;
+    padding: 12px 127px;
+    color: #FFFFFF;
+    background: #411F36;
+    border-radius: 5px;
+}
+
+.informacoes-contato .card .form .botao-enviar:hover {
+    cursor: pointer;
+    transition: 0.3s ease-out;
+    transform: scale(1.05);
+}
+
+
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0;
+    box-shadow: rgba(121, 121, 130, 0.4) 0px 0px 0px 2px, rgba(121, 121, 130, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+footer .social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+footer .social .titulo-social h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+footer .social .info-social {
+    display: flex;
+    gap: 40px;
+}
+
+footer .social .info-social i {
+    font-size: 25px;
+    color: #F8F6F0;
+    transition: 0.5s ease-in-out;
+}
+
+footer .social .info-social i:hover {
+    color: #683257;
+    scale: 1.2;
+}
+
+footer .contato {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}

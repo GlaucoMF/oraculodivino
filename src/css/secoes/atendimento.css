@@ -1,0 +1,130 @@
+body {
+    margin: 0 auto;
+    min-height: 100vh;
+    background-color: #101010;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    border-top: 1px solid rgba(121, 121, 130, 0.65);
+}
+
+.hero .info-hero {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hero .info-hero h1 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.hero .info-hero span {
+    font-size: 18px;
+    font-weight: 200;
+    width: 600px;
+    text-align: justify;
+}
+
+.hero img {
+    width: 350px;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 50px 100px;
+}
+
+.about .info-about {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 480px;
+    padding: 15px;
+    justify-content: space-around;
+    background-color: #683257;
+    box-shadow: rgba(121, 121, 130, 0.4) 0px 0px 0px 2px, rgba(121, 121, 130, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.about .info-about .titulo-about {
+    font-size: 26px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.about .info-about .descricao-about {
+    font-size: 18px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.about .info-about .btn-atendimento {
+    align-self: center;
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    height: 300px;
+}
+
+.aside h2 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+
+.aside .btn-atendimento {
+    margin-left: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0;
+    box-shadow: rgba(121, 121, 130, 0.4) 0px 0px 0px 2px, rgba(121, 121, 130, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+footer .social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+footer .social .titulo-social h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+footer .social .info-social {
+    display: flex;
+    gap: 40px;
+}
+
+footer .social .info-social i {
+    font-size: 25px;
+    color: #F8F6F0;
+    transition: 0.5s ease-in-out;
+}
+
+footer .social .info-social i:hover {
+    color: #683257;
+    scale: 1.2;
+}
+
+footer .contato {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
