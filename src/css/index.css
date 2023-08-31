@@ -7,7 +7,7 @@ body {
 .titulo {
     display: flex;
     flex-direction: column;
-    background-image: url(/src/imagens/baralho3.png);
+    background-image: url(../imagens/baralho3.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
